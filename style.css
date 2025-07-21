@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.Left-Side {
+    flex: 1;
+    background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-right: 1px solid #eeeeee;
+}
+
+.Tag{
+    display: flex;
+    align-items: center;
+    background: rgba(80, 67, 67, 0.4);
+    margin-top: 30vh;
+    justify-content: center;
+
+}
+
+.Tag h1{
+    color: white;
+    font-size:95px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.Tag img{
+    width: 90px;
+    height: 120px;
+    padding: 10px 0;
+}
+
+.Right-Side {
+    flex: 2;
+    padding: 20px;
+    background-color: azure;
+}
+
+.Right-Side
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Intro{
+    margin-bottom: 20px;
+    padding: 0 20px;
+    margin-right: 180px;
+}
+
+.Intro p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.form-row {
+    display: flex;
+    gap: 180px;
+    margin-bottom: 15px;
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+button{
+    background-color: rgb(36, 128, 36);
+    margin: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    box-shadow: black 0px 0px 10px;
+}
+
+button:hover{
+    background-color: rgb(34, 104, 34);
+    cursor: pointer;
+}
+
+input{
+    border-radius: 5px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
